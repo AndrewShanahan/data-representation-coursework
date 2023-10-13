@@ -1,0 +1,25 @@
+/// This xml file is a library with 2 categories and each category containing 2 books.
+/// Adding English as the language
+
+<library>
+    <book category="cooking">
+        <title lang="en">Dopamine Diet</title>
+        <author>Tom Kerridge</author>
+        <isbn>9781472935410</isbn>
+    </book>
+    <book category="cooking">
+        <title lang="en">Supper for Friends</title>
+        <author>Mary Berry</author>
+        <isbn>9781409346418</isbn>
+    </book>
+    <book category="technical">
+        <title lang="en">Automate the Boring Stuff with Python: Practical Programming for Total Beginners</title>
+        <author>Al Sweigart</author>
+        <isbn>9781593275990</isbn>
+    </book>
+    <book category="technical">
+        <title lang="en">Python for Data Analysis</title>
+        <author>Wes McKinney</author>
+        <isbn>9781449319793</isbn>
+    </book>
+</library>
