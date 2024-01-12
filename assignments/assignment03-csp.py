@@ -15,3 +15,8 @@ def read_data():
     response = requests.get(url)
     # Parse JSON response 
     return (response.json())
+
+if __name__ == "__main__":   
+
+    with open("cso.json", "wt") as fp:
+        print(json.dumps(read_data()), file=fp)
